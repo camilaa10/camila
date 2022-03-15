@@ -1,0 +1,9 @@
+h1{
+  color: red;
+  font-size: 56px;
+}
+p,span{
+  color: blue;
+  font-size: 32px;
+  font-family: Comic Sans MS;
+}

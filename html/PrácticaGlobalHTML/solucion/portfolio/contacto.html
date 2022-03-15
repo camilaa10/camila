@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>CONTACTO</title>
+  <meta charset="UTF-8"/>
   <meta name="keywords" content="Natendo,nantendo games,videojuegos,empresa de videojuegos" />
   <meta name="description" content="Web Oficial Nantendo Games Info lanzamientos" />
   <meta name="author" content="Maria Camila" />
@@ -26,30 +27,57 @@
         <table>
           <tr>
             <td><label for="nombre">Nombre:</label></td>
-            <td><input type="text" name="nombre" value="" size="20" maxlenght="18" id="nombre"/></td>
+            <td><input type="text" name="nombre" value="" size="20" maxlength="18" id="nombre"/></td>
           </tr>
           <tr>
-            <td><label for="apellido">Contraseña:</label></td>
-            <td><input type="text" name="apellido" value="" size="50" maxlenght="48" id="apellido" /></td>
+            <td><label for="apellido">Apellido:</label></td>
+            <td><input type="text" name="apellido" value="" size="50" maxlength="48" id="apellido" /></td>
           </tr>
           <tr>
             <td><label for="password">Contraseña:</label></td>
-            <td><input type="password" name="password" value="" maxlenght="10" id="password" /></td>
+            <td><input type="password" name="password" value="" size="20"maxlength="10" id="password" /></td>
           </tr>
           <tr>
-            <td><label for="contra2">repite contra:</label></td>
-            <td><input type="text" name="password" value="" maxlenght="10" id="contra2" /></td>
+            <td><label for="pass">Repite contraseña:</label></td>
+            <td><input type="password" name="pass" value="" maxlength="10" id="pass" /></td>
           </tr>
           <tr>
-            <td><label for="sex">indica sexo:</label></td>
-            <td><input type="radio" name="genero" value="hombre">Hombre</td>
-            <td><input type="radio" name="genero" value="mujer">Mujer</td>
-
-          </tr>
-            </table>
-        </fieldset>
-    </form>
-  </main>
-
-</body>
-</html>
+            <td>Indica sexo:</td>
+            <td><input type="radio" name="genero" value="hombre" id="hombre"><label for="hombre">Hombre</label>
+              <input type="radio" name="genero" value="mujer"id="hombre"><label for="mujer">Mujer</label></td>
+            </tr>
+            <tr>
+              <td>
+                <input type="checkbox" name="suscribirse" value="suscribirse" id="suscri"checked="checked">
+                <label for="suscri">Susicribirse al boletin de novedades</label></td>
+                <tr>
+                  <td><label form="">sobre que juego te gustaria recibir informacion</td>
+                    <td>
+                      <select id="interes" name="interes">
+                        <option value="">Seleccione una opcion</option>
+                        <option value="01">Mariano Kart</option>
+                        <option value="02">Celdas</option>
+                        <option value="03">Mariano</option>
+                        <option value="04">Tetris</option>
+                      </select>
+                      </td>
+                    </tr>
+                  </table>
+                  <input type="submit" name="enviar" value="Enviar">
+                  <input type="reset" value="Borrar los datos introducidos" name="reset">
+                </fieldset>
+              </form>
+              <p>
+                <a href="../index.html" title="volver"><img src="../imagenes/volver.png" alt="volver" width="50" heigth="50">
+                </p>
+              </main>
+              <footer>
+                <hr>
+                <p>
+                  Copyright &copy;
+                  <a href="../index.html">Nantendo, Inc.</a> 2020. Todos los derechos reservados<br>
+                  Diseñado por <a href="#">NaN</a> | Valid <a href="#">CSS</a> &amp; <a href="#">HTML</a>
+                </p>
+              </footer>
+            </body>
+            </html>
