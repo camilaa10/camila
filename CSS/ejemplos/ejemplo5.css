@@ -1,0 +1,18 @@
+h1 {
+border: 5px dashed #6495ED ;
+text-align:
+margin: 500px ;
+}
+p {
+border-style: dashed;
+border-width: 3px;
+border-left-width : 2px;
+border-left-color : green;
+border-left-style : dotted;
+border-color: #008B8B;
+border-bottom-width : 10px;
+border-bottom-color : green;
+border-bottom-style : solid;
+boder-top-left-radius: 10px;
+background-color: yellow;
+}
