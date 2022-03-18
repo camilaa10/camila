@@ -1,0 +1,41 @@
+input[type="text"]{
+  background-color: #E9967A;
+  width: 300px;
+  margin-bottom: 10px;
+}
+label[for="nombre"]{
+  color: #4B0082;
+}
+input[type="email"]{
+  background-color: #DDA0DD;
+  width: 300px;
+  margin-bottom: 10px;
+}
+label[for="email"] {
+  color: #800080;
+
+}
+label[for="texto libre"]{
+  color: #EE82EE;
+}
+#poblacion{
+  color: #F08080;
+  background-color: #ADD8E6;
+  width: 300px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+a:hover{
+  color: #DC143C;
+  font-size: 50px;
+  cursor: progress;
+}
+input:disabled{
+  background: #CCC;
+}
+input[type="checkbox"]:checked{
+box-shadow: 0 0 0 3px orange;
+}
+input:required {
+  border: 3px dashed red;
+}

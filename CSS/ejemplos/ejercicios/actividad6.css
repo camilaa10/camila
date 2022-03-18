@@ -1,0 +1,60 @@
+/* input[type="text"]{
+  background-color: #E9967A;
+  width: 300px;
+  margin-bottom: 10px;
+}
+label[for="nombre"]{
+  color: #4B0082;
+}
+input[type="email"]{
+  background-color: #DDA0DD;
+  width: 300px;
+  margin-bottom: 10px;
+}
+label[for="email"] {
+  color: #800080;
+
+}
+label[for="texto libre"]{
+  color: #EE82EE;
+}
+#poblacion{
+  color: #F08080;
+  background-color: #ADD8E6;
+  width: 300px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+a:hover{
+  color: #DC143C;
+  font-size: 50px;
+  cursor: progress;
+}
+input:disabled{
+  background: #000;
+}
+input[type="checkbox"]:checked{
+box-shadow: 0 0 0 3px orange;
+}
+input:required {
+  border: 3px dashed red;
+}*/
+input[type="checkbox"]:checked{
+  accent-color: #FF1493;
+}
+a:hover{
+  color: #2F4F4F;
+  font-size: 50px;
+  cursor: row-resize;
+}
+:focus{
+  background-color: purple;
+}
+:disabled{
+  background-color: #000;
+}
+:hover{
+background-color: lightblue;
+font-family:arial;
+text-decoration: overline;
+}
