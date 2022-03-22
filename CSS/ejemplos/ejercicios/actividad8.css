@@ -1,0 +1,30 @@
+/* @font-face {
+  font-family: 'Roboto Mono';
+  src: url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,100&display=swap')format('woff'),
+}
+#seccion2{
+  font-family: 'Roboto Mono', monospace;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap');
+#seccion3 {
+  font-family: 'Inspiration', cursive;
+}
+
+#seccion4 {
+  font-family: 'Open Sans',sans-serif;
+}*/
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+#seccion3{
+  font-family: 'Inspiration', cursive;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Smokum&display=swap');
+
+p{
+  font-family: 'Inspiration', cursive;
+}
+
+h1{
+  font-family: 'Smokum', cursive;
+}

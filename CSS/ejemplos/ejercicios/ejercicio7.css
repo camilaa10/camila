@@ -1,0 +1,38 @@
+div{
+  width: 500px;
+  height: 500px;
+  border: 5px solid black;
+  padding: 20px;
+  background-image: url(https://cnnespanol.cnn.com/wp-content/uploads/2019/12/s_64a163f16ecbb099e52f2f8271f73cbbfcfc9034be4d646f7375e4db1ca6f3d7_1573501883482_ap_19001106049831-1.jpg?quality=100&strip=info&w=320&h=240&crop=1);
+  background-color: #cccccc;
+}
+div:nth-child(1){
+  background-repeat: no-repeat;
+}
+div:nth-child(2){
+  background-repeat: repeat;
+}
+div:nth-child(3){
+  background-repeat: repeat-y;
+}
+div:nth-child(4){
+  background-repeat: repeat-x;
+}
+div:nth-child(5){
+  background-repeat: no-repeat;
+  background-position: center;
+}
+div:nth-child(6){
+  background-repeat: no-repeat;
+  background-position: top 80px right 60px;
+}
+div:nth-child(7){
+  background-image: url(https://www.tooltyp.com/wp-content/uploads/2014/10/1900x920-8-beneficios-de-usar-imagenes-en-nuestros-sitios-web.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div:nth-child(8){
+  background-image: url(https://www.tooltyp.com/wp-content/uploads/2014/10/1900x920-8-beneficios-de-usar-imagenes-en-nuestros-sitios-web.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
